@@ -1,0 +1,96 @@
+body, h1, h2, h3, h4, h, p {
+    margin: 0;
+    padding: 0;
+    font-family:  ui-sans-serif, -apple-system, system-ui, Segoe UI, Helvetica, Apple Color Emoji, Arial, sans-serif, Segoe UI Emoji, Segoe UI Symbol;;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 0;
+    margin: 0;
+}
+header {
+    background: #0b0329b9;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 2rem 1rem;
+    border-radius: 8pix;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin:auto;
+}
+header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+section {
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    margin-bottom: 1rem;
+    border-radius: 2%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+section h2 {
+    color: #004080;
+    margin-bottom: 1rem;
+}
+article {
+    margin-bottom: 1.5;
+}
+article h3 {
+    color: #0066cc;
+    margin-bottom: 0.5rem;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+form input, form textarea {
+    margin-bottom: 1rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+form button {
+    background: #004080;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+form button:hover {
+    background: #0066cc;
+}
+footer {
+    background: #004080;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+    margin: 0 5px;
+}
+footer a:hover {
+    text-decoration: underline;
+}
